@@ -9,4 +9,4 @@ Currently the project is still under construction.
 
 Approach: We are creating simple classes with data fields that are used in the overarching project. We have hardcoded a set number of objects into the Dispenser to begin with.
 
-Use: Currently the user needs access to Eclipse, or a JDK that can run the .java files. Once the main method is called the user will then receive a list of all stocked products. This will change as the project calls for it.
+Use: Currently the user needs access to Eclipse, or a JDK that can run the .java files. Vending_Machine_Application.7z contains the project files. Within the project, Main.java contains the main method for execution. Once the main method is called the user will then receive a list of all stocked products. This will change as the project calls for it.
