@@ -14,3 +14,7 @@ Approach: We are creating simple classes with data fields that are used in the o
 Use: Currently the user needs access to Eclipse, or a JDK that can run the .java files. Vending_Machine_Application.7z contains the project files. Within the project, Main.java contains the main method for execution. Once the main method is called the user will then receive a list of all stocked products. This will change as the project calls for it.
 
 The main method now also calls the compareTo method of the snack class and displays that it works in regards to two separate chip objects.
+
+Week 4 we created a graphical user interface for the dispenser class and created a TransactionProcessing class.  The GUI displays the four categories of food items along with a button for each.  Upon clicking the button, the items for the category are displayed along with their price and quantity.  The user can then purchase items, and after clicking the Done button, the purchased items are displayed along with the total cost of the transaction.
+
+The new TransactionProcessing class takes in a Product object for each transaction and stores it in an ArrayList.  The total amount of money used in the transaction is stored, as well as the money remaining to purchase more items.
