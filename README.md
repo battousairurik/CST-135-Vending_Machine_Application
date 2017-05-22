@@ -23,3 +23,14 @@ The new TransactionProcessing class takes in a Product object for each transacti
 
 
 Week 5 we added the the animationHandling class and the InventoryManagement class, which is an inner class for event handling.  Additionally, we added three buttons to the main GUI.  The first button displays the current inventory of the vending machine.  The second button demonstrates animations of the items in the vending machine falling into a basket, which will be implemented in the final dispenser GUI.  The third button is the start of the boss mode GUI.  It currently allows for the user to adjust item quantities but will later be expanded to allow for name, category, and price adjustments.
+
+
+Week 6 we added the following classes: GlobalInventoryManagement, Restock, and ErrorMessage.
+
+The GlobalInventoryMangement class handles the processing of .csv files, spreadsheets which contain all the information for a new vending machine.  The class reads the file, processes each cell in the spreadsheet, and adds a Dispenser object to an ArrayList containing all the dispensers.  The class also has the ability to sort items within the dispenser by name and quantity, as well as recursively search for items by name.
+
+The Restock class determines whether a dispenser needs to restock any of its items, returning an ArrayList of Products which are below the threshold of three or fewer items.
+
+The ErrorMessage class is used to display an error dialog box whenever errors occur, such as invalid inputs by the user or an incorrectly formatted .csv file.  It contains one method called display(), taking in a message String and a title String.
+
+The Main.java file contains two methods demonstrating the new functionality in this week's milestone.  The inventoryTest() method demonstrates the GlobalInventoryManagement class, testing out its sort feature and its recursive search.  The displayGUI() method shows the user interface as it currently stands, containing the new Dispenser Manager, which allows the user to import .csv files to create new dispensers, display a list of items needed to be restocked, and manage products in a dispenser.  The user can modify an item's name, quantity, and price.
