@@ -34,3 +34,8 @@ The Restock class determines whether a dispenser needs to restock any of its ite
 The ErrorMessage class is used to display an error dialog box whenever errors occur, such as invalid inputs by the user or an incorrectly formatted .csv file.  It contains one method called display(), taking in a message String and a title String.
 
 The Main.java file contains two methods demonstrating the new functionality in this week's milestone.  The inventoryTest() method demonstrates the GlobalInventoryManagement class, testing the sort feature and recursive search and then outputting the results to the console.  The displayGUI() method shows the user interface as it currently stands, containing the new Dispenser Manager, which allows the user to import .csv files to create new dispensers, display a list of items needed to be restocked, and manage products in a dispenser.  The user can modify an item's name, quantity, and price.
+
+
+Week 7 was the final week in developing our application.  We added an Adjust Money feature in which the customer can add or subtract money with which to purchase items from the dispenser.  We also added a Customer Animation feature, which reads from a .CSV file, creating a queue of customers and an item to be purchased.  If the item is not available, the customer chooses a new item at random.  If that item is not available, this process continues until five failed attempts.  This queue of customers is displayed visually, with each customer going up to the machine one at a time, with their purchasing requests displayed in a window to the right.
+
+To run the application, download and export the "Virtual Vending Machine.7z" file.  After exporting, find and execute the runnable Java applet called "Virtual Vending Machine.jar".
