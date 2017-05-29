@@ -39,3 +39,8 @@ The Main.java file contains two methods demonstrating the new functionality in t
 Week 7 was the final week in developing our application.  We added an Adjust Money feature in which the customer can add or subtract money with which to purchase items from the dispenser.  We also added a Customer Animation feature, which reads from a .CSV file, creating a queue of customers and an item to be purchased.  If the item is not available, the customer chooses a new item at random.  If that item is not available, this process continues until five failed attempts.  This queue of customers is displayed visually, with each customer going up to the machine one at a time, with their purchasing requests displayed in a window to the right.
 
 To run the application, download and export the "Virtual Vending Machine.7z" file.  After exporting, find and execute the runnable Java applet called "Virtual Vending Machine.jar".
+
+
+Individual contributions:
+
+Nicholas Robertson:  Most of my work was in designing the GUI, implementing the existing classes and making changes to the classes as necessary.  I created the following graphical interfaces: Selection by Category, Display all Inventory, Adjust Money, and Dispenser Manager.  I also created the ErrorMessage class and used it to validate data entry, such as the importing of .CSV files as new dispensers and inputting numerical values into text boxes.  I also expanded the GlobalInventoryManagement class to process an ArrayList of Dispenser objects, allowing for the management of multiple vending machines.
